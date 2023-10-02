@@ -20,4 +20,9 @@ Para este web scrapping utilizaremos la librería Selenium.
 
 Para extraer datos con Selenium en Python, primero necesitarás instalar Selenium. Puedes hacerlo ejecutando el siguiente comando en tu terminal:
 >pip install selenium
+<h1>Variables de Entorno</h1>
+Es necesario configurar las variables de entorno en un archivo .env:
+MONGO_USER=username 
+MONGO_PASSWORD=password 
+MONGO_HOST=cluster0
 
