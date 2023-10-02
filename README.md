@@ -28,7 +28,7 @@ Para extraer datos con Selenium en Python, primero necesitarás instalar Seleniu
 
 
 >pip install selenium
-<h2>Variables de Entorno</h2>
+<h2>Configuración</h2>
 Es necesario configurar las variables de entorno en un archivo .env:
 
 
@@ -37,4 +37,6 @@ Es necesario configurar las variables de entorno en un archivo .env:
 >MONGO_PASSWORD=password
 >
 >MONGO_HOST=cluster0.t2zotyt.mongodb.net****
+
+El script de Python llamado nuevo.py es el que realiza web scraping en el sitio de Trovit. Este script abre la página web, espera a que se cargue y luego extrae datos de alojamientos y los guarda en la BD MOANABD.
 
